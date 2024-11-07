@@ -8,6 +8,12 @@ package com.mycompany.taller4_patterns;
  *
  * @author Hp
  */
-public class CRWord {
+public class CRWord extends CreaReporte{
+
+    @Override
+    Reporte CrearReport() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'CrearReport'");
+    }
     
 }

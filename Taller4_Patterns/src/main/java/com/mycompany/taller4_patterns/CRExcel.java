@@ -8,6 +8,12 @@ package com.mycompany.taller4_patterns;
  *
  * @author Hp
  */
-public class CRExcel {
+public class CRExcel extends CreaReporte{
+    public String Texto;
+    @Override
+    Reporte CrearReport() {
+        throw new UnsupportedOperationException("Unimplemented method 'CrearReport'");
+    }
+
     
 }

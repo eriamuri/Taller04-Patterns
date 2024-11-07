@@ -8,6 +8,12 @@ package com.mycompany.taller4_patterns;
  *
  * @author Hp
  */
-public class CreaReporte {
+public abstract class CreaReporte {
+    public String texto;
     
+    abstract Reporte CrearReport();
+    
+    public void Visualizar(){
+        System.out.println("el texto");
+    }
 }
