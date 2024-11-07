@@ -6,9 +6,14 @@ package com.mycompany.taller4_patterns;
 
 /**
  *
- * @author Hp
+ * @author author
  */
-public interface Reporte {
-    void CrearReport();
-    void Visualizar();
+public abstract class CreaReporte {
+    public String texto;
+    
+    abstract Reporte CrearReport();
+    
+    public void Visualizar(){
+        System.out.println("el texto");
+    }
 }

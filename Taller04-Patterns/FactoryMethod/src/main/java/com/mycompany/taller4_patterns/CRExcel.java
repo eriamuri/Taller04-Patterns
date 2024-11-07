@@ -6,14 +6,14 @@ package com.mycompany.taller4_patterns;
 
 /**
  *
- * @author Hp
+ * @author author
  */
-public class CRPDF extends CreaReporte{
-
+public class CRExcel extends CreaReporte{
+    public String Texto;
     @Override
     Reporte CrearReport() {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'CrearReport'");
     }
+
     
 }

@@ -6,9 +6,9 @@ package com.mycompany.taller4_patterns;
 
 /**
  *
- * @author Hp
+ * @author author
  */
-public class CRWord extends CreaReporte{
+public class CRPDF extends CreaReporte{
 
     @Override
     Reporte CrearReport() {

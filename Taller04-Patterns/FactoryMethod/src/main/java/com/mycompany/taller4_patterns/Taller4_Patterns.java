@@ -6,7 +6,7 @@ package com.mycompany.taller4_patterns;
 
 /**
  *
- * @author Hp
+ * @author author
  */
 public class Taller4_Patterns {
 
