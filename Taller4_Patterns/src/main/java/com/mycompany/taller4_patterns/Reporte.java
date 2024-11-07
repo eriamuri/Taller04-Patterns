@@ -8,6 +8,7 @@ package com.mycompany.taller4_patterns;
  *
  * @author Hp
  */
-public class Reporte {
-    
+public interface Reporte {
+    void CrearReport();
+    void Visualizar();
 }
